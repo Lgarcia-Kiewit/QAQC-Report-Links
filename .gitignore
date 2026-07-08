@@ -1,0 +1,20 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local environment files
+.env
+.env.*
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Common future build folders
+node_modules/
+dist/
+build/
