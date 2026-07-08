@@ -14,39 +14,46 @@
     <link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png" />
     <link rel="stylesheet" href="assets/vendor/animate.min.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="easter-eggs/ct-flap/ct-flap.css" />
   </head>
   <body>
     <main class="app-shell" aria-labelledby="page-title">
       <section class="hero" aria-label="Quality daily report form links">
         <header class="brand-bar">
-          <img class="brand-logo" src="assets/ct-logo.png" alt="CT logo" />
+          <div class="brand-logo-frame">
+            <img class="brand-logo" src="assets/ct-logo.png" alt="CT logo" />
+          </div>
           <div class="title-group">
-            <p class="eyebrow">Form Host</p>
-            <h1 id="page-title">Quality Daily Report Links</h1>
+            <h1 id="page-title">
+              Quality Daily Rep<button class="title-game-trigger" type="button" data-game-open tabindex="-1">o</button>rt Links
+            </h1>
           </div>
         </header>
 
         <nav class="button-stack" aria-label="Report form links">
           <a
             class="form-link form-link--linde animate__animated animate__backInDown"
-            href="https://www.google.com"
+            href="https://forms.office.com/Pages/ResponsePage.aspx?id=PQxCB0HBZ0y28_RI5a22e3ysqxs5n3pPmvkoYf_d60ZUNVNNSTFHQUhZRkY5TVlIRllBS0VQMUJEMi4u"
             data-form-link
+            data-excel-workaround="ms-excel:ofe|u|https://kiedrive.kiewit.com/personal/luke_garcia_kiewit_com/Documents/Linde%20Quality%20Daily%20Report%201.xlsx"
             style="animation-delay: 0.05s"
           >
             <span>Linde QA</span>
           </a>
           <a
             class="form-link form-link--kiewit animate__animated animate__backInDown"
-            href="https://www.google.com"
+            href="https://forms.office.com/Pages/ResponsePage.aspx?id=PQxCB0HBZ0y28_RI5a22e3ysqxs5n3pPmvkoYf_d60ZUMEJFUExGQzlWWVRDMTA3NDEyTFBIODk1TS4u"
             data-form-link
+            data-excel-workaround="ms-excel:ofe|u|https://kiedrive.kiewit.com/personal/luke_garcia_kiewit_com/Documents/Active%20MS%20Form%20Sheets/Kiewit%20QA%20Daily%20Report.xlsx"
             style="animation-delay: 0.16s"
           >
             <span>Kiewit QA</span>
           </a>
           <a
             class="form-link form-link--kiewit animate__animated animate__backInDown"
-            href="https://www.google.com"
+            href="https://forms.office.com/Pages/ResponsePage.aspx?id=PQxCB0HBZ0y28_RI5a22e3ysqxs5n3pPmvkoYf_d60ZUMTVaTFRWM1QyMFhXTkRBUzdJRk5SMDQwVi4u"
             data-form-link
+            data-excel-workaround="ms-excel:ofe|u|https://kiedrive.kiewit.com/personal/luke_garcia_kiewit_com/Documents/Active%20MS%20Form%20Sheets/Kiewit%20QC%20Daily%20Report.xlsx"
             style="animation-delay: 0.27s"
           >
             <span>Kiewit QC</span>
@@ -56,5 +63,6 @@
     </main>
 
     <script src="app.js"></script>
+    <script src="easter-eggs/ct-flap/ct-flap.js"></script>
   </body>
 </html>

@@ -10,7 +10,14 @@ Open in browser:
 Change form links:
   Edit the href values in index.html.
 
-Current placeholder links:
-  Linde QA  -> https://www.google.com
+Current links:
+  Linde QA  -> Microsoft Forms Linde QA link
   Kiewit QA -> https://www.google.com
   Kiewit QC -> https://www.google.com
+
+Easter egg:
+  Click the CT logo to open the CT Flap mini game.
+  Click, tap, or press Space to flap.
+  Press Escape or Close to exit.
+  Game files live in easter-eggs/ct-flap.
+  See easter-eggs/ct-flap/README.txt for removal steps.

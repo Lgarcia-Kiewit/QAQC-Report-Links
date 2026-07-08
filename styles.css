@@ -77,8 +77,16 @@ body::before {
   width: 100%;
   aspect-ratio: 1;
   border-radius: 6px;
-  background: var(--white);
   object-fit: contain;
+}
+
+.brand-logo-frame {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  background: var(--white);
 }
 
 .title-group {
@@ -100,6 +108,15 @@ h1 {
   font-size: clamp(1.65rem, 7vw, 2.65rem);
   line-height: 1.02;
   letter-spacing: 0;
+}
+
+.title-game-trigger {
+  all: unset;
+  display: inline;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  cursor: inherit;
 }
 
 .button-stack {
