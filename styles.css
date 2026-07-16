@@ -105,9 +105,36 @@ body::before {
 h1 {
   margin: 0;
   color: var(--ink);
-  font-size: clamp(1.65rem, 7vw, 2.65rem);
+  font-size: 2.65rem;
   line-height: 1.02;
   letter-spacing: 0;
+  hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
+}
+
+.developer-credit {
+  margin: 0.55rem 0 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: 0;
+}
+
+.support-email {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.word-chunk {
+  display: inline-block;
+  max-width: 100%;
+  hyphens: none;
+  overflow-wrap: normal;
+  white-space: nowrap;
+  word-break: keep-all;
 }
 
 .title-game-trigger {
@@ -134,7 +161,7 @@ h1 {
   border: 1px solid transparent;
   border-radius: var(--radius);
   color: var(--white);
-  font-size: clamp(1.1rem, 4vw, 1.32rem);
+  font-size: 1.32rem;
   font-weight: 800;
   letter-spacing: 0;
   text-align: center;
@@ -146,6 +173,12 @@ h1 {
     filter 160ms ease,
     box-shadow 160ms ease,
     border-color 160ms ease;
+}
+
+.form-link-label {
+  hyphens: none;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .form-link:hover {
@@ -184,6 +217,16 @@ h1 {
   }
 }
 
+@media (max-width: 44rem) {
+  h1 {
+    font-size: 2.1rem;
+  }
+
+  .form-link {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 24rem) {
   .brand-bar {
     grid-template-columns: 4.1rem minmax(0, 1fr);
@@ -193,8 +236,13 @@ h1 {
     padding: 1rem;
   }
 
+  h1 {
+    font-size: 1.65rem;
+  }
+
   .form-link {
     min-height: 4rem;
+    font-size: 1.1rem;
   }
 }
 
